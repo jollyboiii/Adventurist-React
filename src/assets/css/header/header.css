@@ -1,0 +1,70 @@
+.site-header {
+  position: fixed;
+  background-color: #f47500;
+  width: 100vw;
+  z-index: 6;
+  padding: 0 5.56%;
+}
+
+.site-header__wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.brand {
+  display: flex;
+  font-weight: 700;
+  font-size: 1.44em;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.brand .brand-logo {
+  height: 1.4em;
+  margin-right: 0.5em;
+}
+
+.navbar {
+  margin: auto 0;
+}
+.navbar .nav__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__item {
+  margin: 8px;
+  padding: 8px;
+
+  /* padding: 1rem;  */
+}
+
+.nav__item a {
+  color: #fff;
+}
+
+.nav__toggle,
+.nav_book-now-button {
+  padding: 0.75rem 2rem;
+  border: 0px solid transparent;
+  border-radius: 1rem;
+
+  max-height: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #fd8c2f;
+}
+
+.nav__toggle{
+  background-color: transparent;
+}
+.nav__toggle {
+
+  display: none;
+}

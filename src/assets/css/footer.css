@@ -1,0 +1,171 @@
+.footer {
+  position: relative;
+  bottom: -50rem;
+  left: 0;
+  right: 0;
+  background-color: #021f41;
+  padding: 0 5.56%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.link-titles {
+  color: #ff7b00;
+  font-weight: 700;
+}
+
+.footer-subsections a,
+.footer-subsections p {
+  color: #ced4da;
+}
+
+.link-body {
+  line-height: 155%;
+}
+
+.quick-links {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.footer-url {
+  color: #fff;
+  font-size: 1.125rem;
+  letter-spacing: 0.2rem;
+}
+.btn {
+  background-color: #ff7b00;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.footer-creds-company {
+  font-size: 1.5rem;
+}
+
+.footer-bot-copyright {
+  color: #6c757d;
+}
+
+@media (max-width: 1026px) {
+  .footer {
+    bottom: -55rem;
+  }
+  .footer-container {
+    margin: 0;
+  }
+
+  /* Font size adjustments */
+  .footer-subsections h5,
+  .footer-creds-company {
+    font-size: 1.25rem;
+  }
+
+  .footer-url {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 1rem 2rem;
+  }
+
+  .footer-bot-copyright {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 769px) {
+  /* Stack footer sections for smaller tablets */
+  .footer {
+    bottom: -65rem;
+    padding: 0 2%;
+  }
+
+  .footer-container {
+    margin: 0;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    
+
+    /* text-align: center; */
+  }
+
+  /* Font size adjustments */
+  .link-titles {
+    font-size: 1.125rem;
+  }
+
+  .footer-url {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 0.8rem 1.8rem;
+  }
+
+  .footer-creds-company {
+    font-size: 1.25rem;
+  }
+
+  .footer-subsections h5 {
+    font-size: 1.125rem;
+  }
+
+  .footer-bot-copyright {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Adjust for mobile devices */
+  .footer {
+    bottom: -80rem;
+    padding: 0 1.5%;
+  }
+
+  
+
+  .footer-subsections {
+    margin-bottom: 2rem;
+  }
+
+  /* Font size and spacing adjustments */
+  .link-titles {
+    font-size: 1rem;
+  }
+
+  .footer-url {
+    font-size: 0.875rem;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+    padding: 0.7rem 1.5rem;
+  }
+
+  .footer-creds-company {
+    font-size: 1rem;
+  }
+
+  .footer-subsections h5 {
+    font-size: 1rem;
+  }
+
+  .footer-bot-copyright {
+    font-size: 0.75rem;
+  }
+
+  /* Adjust image size */
+  .footer-logo-image {
+    width: 1.5rem;
+  }
+}
